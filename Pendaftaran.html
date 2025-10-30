@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Mahasiswa</title>
+</head>
+<body>
+    <h2>Tabel Biodata</h2>
+    <table border="1">
+        <tr>
+            <th>Nama</th>
+            <th>NIM</th>
+            <th>Jurusan</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Syahara Bintang Fiisura</td>
+            <td>2305101106</td>
+            <td>Teknik Informatika</td>
+            <td>syaharabintang@gmail.com</td>
+        </tr>
+    </table>
+    <br>
+
+    <h3>Mata Kuliah Favorit Saya :</h3>
+    <ol>
+        <li>Pemograman Web</li>
+        <li>Statistika Teknik</li>
+        <li>Kecerdasan Buatan</li>
+    </ol>
+    <br>
+
+    <h3>Hobi Saya :</h3>
+    <ul>
+        <li>Bermain Game</li>
+        <li>Menggunakan Sosial Media</li>
+        <li>Mendengar Musik</li>
+    </ul>
+    <br><br>
+
+    <h2>Formulir Pendaftaran</h2>
+    <form action="submit_.php" method="post">
+        <label for="nama">Nama Lengkap :</label><br>
+        <input type="text" name="nama" id="nama" required><br><br>
+        
+        <label for="email">Email Anda :</label><br>
+        <input type="email" name="email" id="email" required><br><br>
+        
+        <label for="password">Password Anda :</label><br>
+        <input type="password" name="password" id="password" required><br><br>
+        
+        <label for="gender">Jenis Kelamin Anda :</label><br>
+        <input type="radio" name="male" id="male">Male
+        <input type="radio" name="female" id="female">Female <br><br>
+        
+        <label for="hobi">Hobi anda :</label><br>
+        <input type="checkbox" name="game" id="game">Bermain Game <br>
+        <input type="checkbox" name="sosmed" id="sosmed">Menggunakan Sosial Media <br>
+        <input type="checkbox" name="musik" id="musik">Mendengar Musik <br><br>
+
+        <label for="jurusan">Jurusan Anda :</label><br>
+        <select id="jurusan" name="jurusan">
+            <option value="TI">Teknik Informatika</option>
+            <option value="TE">Teknik Elektro</option>
+            <option value="TIND">Teknik Industri</option>
+        </select><br><br>
+
+        <button type="submit">Kirim</button><br>
+    </form>
+    <br><br>
+
+    <iframe width="360" height="215" src="https://www.youtube.com/embed/Ho4A8-wne2U?si=uItLHuHMA879hz4h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br><br>
+
+    <a href="Profil.html"><i>Kembali Ke Profile</i></a><br><br>
+</body>
+</html>
